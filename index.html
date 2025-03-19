@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h2>Dimas Sodiin</h2>
+            <h2>2211102213</h2>
+            <h2>Banyumas</h2>
+        </div>
+    </div>
+    
+    <form action="#" method="post">
+        <div class="foto">
+            <img src="https://ypt.or.id/wp-content/uploads/2018/09/telu.png" alt="Logo">
+        </div>
+
+        <div class="form-group">
+            <label for="nama"> Nama Lengkap</label>
+            <input type="text" name="nama" id="nama" placeholder="Masukan Nama Lengkap" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="nama@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Masukan Password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" rows="3" placeholder="Masukan Alamat Lengkap"></textarea>
+        </div>
+
+        <div class="inline-group">
+            <div class="form-group">
+                <label for="tanggalLahir">Tanggal Lahir</label>
+                <input type="date" name="tanggalLahir" id="tanggalLahir">
+            </div>
+            <div class="form-group">
+                <label for="kota">Kota</label>
+                <select name="kota" id="kota">
+                    <option value="">-- Pilih Kota --</option>
+                    <option value="banyumas">Banyumas</option>
+                    <option value="purwokerto">Purwokerto</option>
+                    <option value="cilacap">Cilacap</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Jenis Kelamin</label>
+            <div class="radio-group">
+                <label for=""><input type="radio" name="gender" id="gender" value="pria">Pria</label>
+                <label for=""><input type="radio" name="gender" id="gender" value="wanita">Wanita</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Hobi</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="hobi[]" value="olahraga"> Olahraga</label>
+              <label><input type="checkbox" name="hobi[]" value="musik"> Game</label>
+              <label><input type="checkbox" name="hobi[]" value="membaca"> Membaca</label>
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan atau keterangan tambahan..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Daftar</button>
+          </div>
+    </form>
+</body>
+</html>
